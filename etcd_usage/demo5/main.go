@@ -19,7 +19,7 @@ func main() {
 	)
 
 	config = clientv3.Config{
-		Endpoints: []string{"36.111.184.221:2379"}, // 集群列表
+		Endpoints: []string{"182.61.57.121:2379"}, // 集群列表
 		DialTimeout: 5 * time.Second,
 	}
 
