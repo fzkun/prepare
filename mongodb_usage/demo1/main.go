@@ -1,11 +1,11 @@
 package main
 
 import (
-	"github.com/mongodb/mongo-go-driver/mongo"
 	"context"
+	"fmt"
+	"github.com/mongodb/mongo-go-driver/mongo"
 	"github.com/mongodb/mongo-go-driver/mongo/clientopt"
 	"time"
-	"fmt"
 )
 
 func main() {
